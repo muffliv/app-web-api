@@ -1,0 +1,14 @@
+.container{
+    background-color: #bff;
+    width: 960px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min_height{
+    min-height: 75%;
+}
