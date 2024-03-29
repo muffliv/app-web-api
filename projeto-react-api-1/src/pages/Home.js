@@ -1,8 +1,13 @@
+import styles from './Home.module.css';
+
 function Home() {
     return(
-        <>
-            <h1>Página Home!</h1>
-        </>
+        <section className={styles.home_container}>
+
+            <h1>Bem Vindo ao <span>BookStander</span></h1>
+            <p>Comece a gerenciar seus livros agora mesmo</p>
+
+        </section>
     );
 }
 

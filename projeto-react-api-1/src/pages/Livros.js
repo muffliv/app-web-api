@@ -1,8 +1,10 @@
+import styles from './Livros.module.css';
+
 function Livros() {
     return(
-        <>
-            <h1>Página Livros!</h1>
-        </>
+        <section className={styles.livros_container}>
+            <h1>Aqui serão listados seus livros!</h1>
+        </section>
     );
 }
 
